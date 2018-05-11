@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Taskie</string>
+    <string name="invalidTitleInputMessage">Please make sure there is only letters in title.</string>
+    <string name="invalidDescriptionInputMessage">Please make sure there is only letters in description.</string>
+    <string name="invalidNumberInputMessage">Please input whole number.</string>
+    <string name="deadlineinput">Enter deadline date:</string>
+    <string name="invalidDateInputMessage">Please select valid date.</string>
+    <string name="tooglebuttonvalue">Start/Finish:</string>
+    <string name="sort">Sort</string>
+</resources>

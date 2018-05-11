@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/textview_newtask_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New task:"/>
+    <EditText
+        android:id="@+id/edittext_newtask_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task title"/>
+    <EditText
+        android:id="@+id/edittext_newtask_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task description"/>
+    <EditText
+        android:id="@+id/edittext_newtask_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task priority"
+        android:inputType="numberDecimal"/>
+    <TextView
+        android:id="@+id/textview_newtask_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deadlineinput"/>
+    <CalendarView
+        android:id="@+id/calendarview_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </CalendarView>
+    <Button
+        android:id="@+id/button_newtask_create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/button_newtask_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>
